@@ -22,9 +22,9 @@ def hitung_nilai_akhir(tugas, uts, uas):
     bobot_uas = 0.35
     return (tugas * bobot_tugas) + (uts * bobot_uts) + (uas * bobot_uas)
 ```
-Fungsi ini menerima 3 parameter: nilai tugas, UTS, dan UAS
-Menghitung nilai akhir dengan bobot:
-Tugas: 30% (0.30)
-UTS: 35% (0.35)
-UAS: 35% (0.35)
-Mengembalikan hasil perhitungan nilai akhir
+- Fungsi ini menerima 3 parameter: nilai tugas, UTS, dan UAS
+- Menghitung nilai akhir dengan bobot:
+  - Tugas: 30% (0.30)
+  - UTS: 35% (0.35)
+  - UAS: 35% (0.35)
+- Mengembalikan hasil perhitungan nilai akhir
