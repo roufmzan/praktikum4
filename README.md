@@ -5,7 +5,7 @@ NIM : 312410157
 
 Kelas : TI.24.A1
 
-# Flowchart input dan outpu dari Praktikum 4
+# Flowchart input dan output dari Praktikum 4
 ## Berikut flowchart
 ![flowchart](Flowchart.png)
 ## Berikut input
