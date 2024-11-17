@@ -13,7 +13,7 @@ Kelas : TI.24.A1
 ## Berikut output
 ![flowchart](output.png)
 
-# 1. Fungsi hitung_nilai_akhir(tugas, uts, uas):
+## 1. Fungsi hitung_nilai_akhir(tugas, uts, uas):
 ```
 def hitung_nilai_akhir(tugas, uts, uas):
     """Hitung nilai akhir berdasarkan bobot tugas, UTS, dan UAS."""
@@ -28,3 +28,32 @@ def hitung_nilai_akhir(tugas, uts, uas):
   - UTS: 35% (0.35)
   - UAS: 35% (0.35)
 - Mengembalikan hasil perhitungan nilai akhir
+
+## 2. Bagian utama program:
+```
+data_mahasiswa = []
+while True:
+    nama = input("Nama: ")
+    nim = input("NIM: ")
+    tugas = int(input("Nilai Tugas: "))
+    uts = int(input("Nilai UTS: "))
+    uas = int(input("Nilai UAS: "))
+
+    nilai_akhir = hitung_nilai_akhir(tugas, uts, uas)
+    data_mahasiswa.append([nama, nim, tugas, uts, uas, nilai_akhir])
+
+    tambah_data = input("Tambah data (ya/tidak)? ")
+    if tambah_data.lower() != 'ya':
+        break
+```
+- Deklarasi variabel data_mahasiswa sebagai list kosong untuk menyimpan data mahasiswa.
+- Loop while True digunakan untuk terus meminta input data mahasiswa hingga pengguna memilih untuk berhenti.
+- Di dalam loop, program meminta input untuk:
+  - nama (Nama mahasiswa)
+  - nim (NIM mahasiswa)
+  - tugas (Nilai tugas mahasiswa)
+  - uts (Nilai UTS mahasiswa)
+  - uas (Nilai UAS mahasiswa)
+- Nilai akhir dihitung menggunakan fungsi hitung_nilai_akhir().
+- Data mahasiswa kemudian ditambahkan ke dalam list data_mahasiswa dengan format: [nama, nim, tugas, uts, uas, nilai_akhir].
+- Setelah memasukkan data, program bertanya kepada pengguna apakah ingin menambahkan data lagi. Jika pengguna memasukkan "ya" (tanpa memperhatikan huruf besar/kecil), loop akan berlanjut. Jika tidak, loop akan dihentikan.
