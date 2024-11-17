@@ -1,5 +1,15 @@
-# praktikum4
-Program pertama yang akan dibuat adalah Program untuk menampilkan angka pertama dan kedua dan masukan operator dan mendapat hasil dari input
+# Tugas praktikum4
+Nama : Ro'uf Muhammad Fauzan
 
-Berikut flowchart
-![flowchart]()
+NIM : 312410157
+
+Kelas : TI.24.A1
+
+# Flowchart input dan outpu dari Praktikum 4
+## Berikut flowchart
+![flowchart](Flowchart.png)
+## Berikut input
+![flowchart](Flowchart.png)
+## Berikut output
+![flowchart](Flowchart.png)
+
